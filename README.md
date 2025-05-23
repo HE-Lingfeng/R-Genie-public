@@ -1,5 +1,5 @@
-# R-Genie-public
-Here we provide public official code implementation for R-Genie
+# R-Genie: Reasoning-Guided Generative Image Editing
+![](https://img.shields.io/badge/Project-Page-blue)(https://dongzhang89.github.io/RGenie.github.io/)
 
 ## ⭐Introduction
 R-Genie addresses the challenges that current image editing methods remain constrained by explicit textual instructions and limited editing operations, lacking deep comprehension of implicit user intentions and contextual reasoning. R-Genie is a reasoning-guided generative image editor, which synergizes the generation power of diffusion models with advanced reasoning capabilities of multimodal large language models. R-Genie incorporates a reasoning-attention mechanism to bridge linguistic understanding with visual synthesis, enabling it to handle intricate editing requests involving abstract user intentions and contextual reasoning relations.
