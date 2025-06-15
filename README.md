@@ -28,7 +28,3 @@ Other components of our model can also be download from huggingface, as follows:
 deepspeed --master_port=24999 training/train_edit.py config=your_train_config_path
 ```
 
-## 🔨How to test
-```
-python inference_edit.py config=your_test_config_path
-```
