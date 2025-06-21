@@ -17,7 +17,8 @@ R-Genie addresses the challenges that current image editing methods remain const
 **Download datasets:**
 
 You can download our datasets on [BaiduCloud](https://pan.baidu.com/s/1eN0YdcnxqmxgcrQjzyyw-Q?pwd=pzpz).
-Note that you have to rewrite the dataloader file to adapt the rearraged dataset file structure.
+
+-Note that you have to rewrite the dataloader file to adapt the rearranged dataset file structure.
 
 Other components of our model can also be download from huggingface, as follows:
 - [Show-o](https://huggingface.co/showlab/show-o)
