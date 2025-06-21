@@ -14,9 +14,10 @@ R-Genie addresses the challenges that current image editing methods remain const
 ![Figure4](https://github.com/user-attachments/assets/e7aba913-0ff7-4fec-bcde-b311d6f92369)
 
 ## 🔧Requirements
-**Download weights:**
+**Download datasets:**
 
-You can download our model weights on [Huggingface](https://huggingface.co/hlf2001/R-Genie).
+You can download our datasets on [BaiduCloud](https://pan.baidu.com/s/1eN0YdcnxqmxgcrQjzyyw-Q?pwd=pzpz).
+Note that you have to rewrite the dataloader file to adapt the rearraged dataset file structure.
 
 Other components of our model can also be download from huggingface, as follows:
 - [Show-o](https://huggingface.co/showlab/show-o)
