@@ -1,0 +1,22 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Local datasets, outputs, and experiment logs
+data/
+results/
+runs/
+wandb/
+
+# Local model checkpoints and downloaded weights
+*.bin
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Local/private manuscript and temporary extracted figures
+/RGenie_IJCV_version__Copy_.pdf
+/Figure*.pdf
+/dataset_sample.pdf
+
