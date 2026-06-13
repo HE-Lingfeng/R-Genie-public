@@ -12,19 +12,25 @@ R-Genie follows the paper's three-stage design:
 2. The Hierarchical Reasoning Module and Reasoning-Attention Bridge ground instruction reasoning into global and local visual features.
 3. Masked latent modeling reconstructs target visual tokens from a corrupted target sequence, conditioned on the source image and reasoning features.
 
-![R-Genie architecture](docs/arch.pdf)
+![R-Genie architecture](docs/images/arch.png)
+
+[View high-resolution PDF](docs/arch.pdf)
 
 ## Dataset Samples
 
 The editing dataset contains image-instruction-target triples that require reasoning over attributes, objects, spatial relations, age, appearance, time, safety, and general world knowledge.
 
-![Dataset samples](docs/dataset_sample.pdf)
+![Dataset samples](docs/images/dataset_sample.png)
+
+[View high-resolution PDF](docs/dataset_sample.pdf)
 
 ## Results
 
 R-Genie improves reasoning-aware editing while preserving background consistency and visual fidelity.
 
-![Results](docs/results.pdf)
+![Results](docs/images/results.png)
+
+[View high-resolution PDF](docs/results.pdf)
 
 ## Repository Structure
 
@@ -35,6 +41,7 @@ docs/
   arch.pdf
   dataset_sample.pdf
   results.pdf
+  images/
   rgenie_architecture.md
 models/
   RGenie.py
@@ -89,4 +96,3 @@ bash run.sh
 ## Architecture Notes
 
 See [docs/rgenie_architecture.md](docs/rgenie_architecture.md) for a short mapping from the paper's method sections to the current code modules.
-
